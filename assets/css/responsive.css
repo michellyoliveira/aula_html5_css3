@@ -1,0 +1,54 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  #cases .app1{
+    background: url('../../assets/img/appito-hq7s_280185.png') no-repeat;
+    height: 268px;
+    width: 245px;
+  }
+
+  #cases .app2{
+    background: url('../../assets/img/audio-shock-gVdp_280185.png') no-repeat;
+    height: 268px;
+    width: 246px;
+  }
+  
+  .hidden_mobile {
+    /* visibility: visible; */
+    display: none;
+  }
+
+  .hidden_web {
+    /* visibility: hidden; */
+    display: flex;
+  }
+
+  #contact .description {
+    padding: 30px;
+  }
+
+  #contact .socials {
+    /* display: flex; */
+    align-items: center;
+  }
+
+  #contact .contact_card {
+    margin-left: auto;
+    padding: 30px 10px 15px 10px;  
+    width: 100%;      
+  }
+
+  #contact .contact_card_col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {  }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
